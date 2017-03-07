@@ -30,9 +30,9 @@ println "default_config = ${default_config}"
 /******************************************************************************\
  *  SKINNING
 \******************************************************************************/
-skin.layout = 'generic'
-skin.orgNameLong = "Generic Data Portal"
-skin.orgNameShort = "Occurrences"
+skin.layout = 'CRBio'
+skin.orgNameLong = "CRBio"
+skin.orgNameShort = "CRBio"
 // whether crumb trail should include a home link that is external to this webabpp - ala.baseUrl is used if true
 skin.includeBaseUrl = true
 skin.headerUrl = "classpath:resources/generic-header.jsp" // can be external URL
