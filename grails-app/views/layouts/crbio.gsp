@@ -104,16 +104,10 @@
                 <p class="hide navbar-text pull-right">
                     Logged in as <a href="#" class="navbar-link">${username}</a>
                 </p>
-                <ul class="nav">
-                    <li><a href="http://www.crbio.cr"><g:message code="generic.navbar02.li05" default="Home"/></a></li>
-                    <li class="active"><a href="http://datos.crbio.cr/generic-hub"><g:message code="generic.navbar02.li01" default="Occurrences"/></a></li>
+                <ul class="nav"> 
                     <li><a href="http://www.crbio.cr:8080/neoportal-web/groupNav?gni=579"><g:message code="generic.navbar02.li04" default="Species"/></a></li>
-                    <li><a href="http://www.crbio.cr/crbio/?page_id=63"><g:message code="generic.navbar02.li02" default="About"/></a></li>
-                    <li><a href="http://www.crbio.cr/crbio/?page_id=65"><g:message code="generic.navbar02.li03" default="Contact"/></a></li>
-
-                    <li><a href="http://www.crbio.cr:8080/neoportal-web/groupNav?gni=579"><g:message code="generic.navbar02.li04" default="Species"/></a></li>
-                    <!-- Style of next line must be moved to a class. Originally, it was 'class="active"' -->
-                    <li style="background-color: #999999"><a href="http://datos.crbio.cr/generic-hub"><g:message code="generic.navbar02.li01" default="Occurrences"/></a></li>                    
+                    <!-- Style of next line must be moved to a class. Originally, it was 'class="active"' --> 
+                    <li style="background-color: #999999"><a href="http://datos.crbio.cr/generic-hub"><g:message code="generic.navbar02.li01" default="Occurrences"/></a></li>
                     <li><a href="http://www.crbio.cr/crbio/?page_id=63"><g:message code="generic.navbar02.li02" default="About"/></a></li>
                     <li><a href="http://www.crbio.cr/crbio/?page_id=65"><g:message code="generic.navbar02.li03" default="Contact"/></a></li>
                 </ul>
