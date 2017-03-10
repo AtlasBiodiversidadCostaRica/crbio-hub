@@ -110,7 +110,7 @@
                     <li style="background-color: #999999"><a href="http://datos.crbio.cr/generic-hub"><g:message code="generic.navbar02.li01" default="Occurrences"/></a></li>
                     <li><a href="http://www.crbio.cr/crbio/?page_id=63"><g:message code="generic.navbar02.li02" default="About"/></a></li>
                     <li><a href="http://www.crbio.cr/crbio/?page_id=65"><g:message code="generic.navbar02.li03" default="Contact"/></a></li>
-                    <langs:selector langs="es, en"/>
+                    <li><langs:selector langs="es, en"/></li>
                 </ul>
             </div><!--/.nav-collapse -->
         </div><!--/.container-fluid -->
