@@ -9,7 +9,7 @@
     %{--<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">--}%
 
     <title><g:layoutTitle /></title>
-    <r:require modules="bootstrap, hubCore" />
+    <r:require modules="bootstrap, hubCore, crbio" />
     <style type="text/css">
     body {
         background-color: #ffffff !important;
@@ -91,7 +91,7 @@
 </head>
 <body class="${pageProperty(name:'body.class')?:'nav-collections'}" id="${pageProperty(name:'body.id')}" onload="${pageProperty(name:'body.onload')}">
 <g:set var="fluidLayout" value="${grailsApplication.config.skin.fluidLayout?.toBoolean()}"/>
-<div class="navbar navbar-inverse navbar-static-top">
+<div id="crbio-navbar" class="navbar navbar-inverse navbar-static-top">
     <div class="navbar-inner ">
         <div class="${fluidLayout?'container-fluid':'container'}">
             <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">

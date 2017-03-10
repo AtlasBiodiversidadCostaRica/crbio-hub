@@ -1,0 +1,75 @@
+# Contenido del archivo
+/* Body */
+
+body {
+    background-color: #ffffff;
+}
+
+
+/* CRBio navigation bar */
+
+#crbio-navbar {
+    border: 1px solid #d4d4d4;
+    margin-bottom: 0;
+    
+    background-color: #ccc;
+    
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#crbio-navbar .container, #site-branding .container,
+#main-content.container, footer .container {
+    width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#crbio-navbar .navbar-inner {
+    background-color: transparent;
+    background-image: none;
+    border: none;
+    padding-left: 0;
+    padding-right: 0;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+#crbio-navbar .btn-navbar {
+    border: none;
+}
+
+#crbio-navbar .nav-collapse {
+    margin-left: -15px;
+    margin-right: -15px;
+    height: auto !important;
+}
+
+#crbio-navbar a, #crbio-navbar a>.caret {
+    color: #386D50;
+    font-weight: bold;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#crbio-navbar a:hover {
+    color: #000000;
+}
+
+#crbio-navbar a:hover .caret {
+    display: inline-block;
+    color: #ff0000;
+}
+
+#crbio-navbar li a {
+    padding-top: 14px;
+    padding-bottom: 13px;
+}
+
+@media (min-width: 768px) {
+    #crbio-navbar .nav.pull-right:last-child {
+        margin-right: -15px;
+    }
+}
