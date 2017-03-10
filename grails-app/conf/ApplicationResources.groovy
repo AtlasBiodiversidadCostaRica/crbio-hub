@@ -18,4 +18,8 @@ modules = {
 
     }
 
+    crbio {
+        dependsOn 'bootstrap2', 'hubCore' //
+        resource url: [dir:'css', file:'crbio.css']
+    }
 }
