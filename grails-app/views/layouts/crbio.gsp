@@ -117,10 +117,41 @@
     </div><!--/.navbar-inner -->
 </div><!--/.navbar -->
 
-
 <div class="${fluidLayout?'container-fluid':'container'}" id="main-content">
     <g:layoutBody />
 </div><!--/.container-->
+
+<section class="partners">
+    <div class="container-fluid">
+    <div class="row-fluid">
+        <div class="span3">
+        </div>
+        <div class="span1">
+            <a href="http://www.inbio.ac.cr/" target="_blank"><img src="${resource(dir:'images',file:'inbio.png')}" alt="Instituto Nacional de Biodiversidad (INBio)" title="Instituto Nacional de Biodiversidad (INBio)"/></a>
+        </div>
+        <div class="span1">
+            <a href="https://www.acguanacaste.ac.cr/" target="_blank"><img src="${resource(dir:'images',file:'acg.jpg')}" alt="Área de Conservación Guanacaste (ACG)" title="Área de Conservación Guanacaste (ACG)"/></a>
+        </div>        
+        <div class="span1">
+            <a href="http://www.micit.go.cr/" target="_blank"><img src="${resource(dir:'images',file:'micitt.png')}" alt="Ministerio de Ciencia, Tecnología y Telecomunicaciones" title="Ministerio de Ciencia, Tecnología y Telecomunicaciones"/></a>
+        </div>
+        <div class="span1">
+            <a href="http://www.conicit.go.cr/" target="_blank"><img src="${resource(dir:'images',file:'conicit.png')}" alt="Consejo Nacional para Investigaciones Científicas y Tecnológicas" title="Consejo Nacional para Investigaciones Científicas y Tecnológicas"/></a>
+        </div>
+        <div class="span1">
+            <a href="https://www.gbif.org/" target="_blank"><img src="${resource(dir:'images',file:'gbif.png')}" alt="Global Biodiversity Information Facility" title="Global Biodiversity Information Facility"/></a>
+        </div>
+        <div class="span1">
+            <a href="http://www.ala.org.au/" target="_blank"><img src="${resource(dir:'images',file:'ala.png')}" alt="Atlas of Living Australia" title="Atlas of Living Australia"/></a>
+        </div>
+        <div class="span1">
+            <a href="https://crowdin.com/" target="_blank"><img src="${resource(dir:'images',file:'crowdin-share.png')}" alt="Crowdin" title="Crowdin"/></a>
+        </div>
+        <div class="span3">
+        </div>
+    </div>
+    </div>
+</section>
 
 <div id="footer">
     <div class="container-fluid">
