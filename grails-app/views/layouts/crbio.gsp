@@ -124,30 +124,26 @@
 <section class="partners">
     <div class="container-fluid">
     <div class="row-fluid">
-        <div class="span3">
-        </div>
-        <div class="span1">
+        <div class="span2">
             <a href="http://www.inbio.ac.cr/" target="_blank"><img src="${resource(dir:'images',file:'inbio.jpg')}" alt="INBio"></a>
         </div>
         <div class="span1">
             <a href="https://www.acguanacaste.ac.cr/" target="_blank"><img src="${resource(dir:'images',file:'acg.jpg')}" alt="ACG"></a>
         </div>        
-        <div class="span1">
+        <div class="span2">
             <a href="http://www.ala.org.au/" target="_blank"><img src="${resource(dir:'images',file:'ala.png')}" alt="ALA"></a>
         </div>
-        <div class="span1">
+        <div class="span2">
             <a href="https://www.gbif.org/" target="_blank"><img src="${resource(dir:'images',file:'gbif.jpg')}" alt="GBIF"></a>
         </div>
-        <div class="span1">
+        <div class="span2">
             <a href="http://www.conicit.go.cr/" target="_blank"><img src="${resource(dir:'images',file:'conicit.png')}" alt="Conicit"></a>
         </div>
         <div class="span1">
             <a href="http://www.micit.go.cr/" target="_blank"><img src="${resource(dir:'images',file:'micitt.png')}" alt="Micitt"></a>
         </div>
-        <div class="span1">
-            <a href="https://crowdin.com/" target="_blank"><img src="${resource(dir:'images',file:'crowdin.png')}" alt="Crowdin"></a>
-        </div>
         <div class="span2">
+            <a href="https://crowdin.com/" target="_blank"><img src="${resource(dir:'images',file:'crowdin.png')}" alt="Crowdin"></a>
         </div>
     </div>
     </div>
