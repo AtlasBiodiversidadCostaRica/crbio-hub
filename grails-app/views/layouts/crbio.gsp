@@ -144,9 +144,6 @@
         <div class="span1">
             <a href="http://www.ala.org.au/" target="_blank"><img src="${resource(dir:'images',file:'ala.png')}" alt="Atlas of Living Australia (ALA)" title="Atlas of Living Australia (ALA)"/></a>
         </div>
-        <div class="span1">
-            <a href="https://crowdin.com/" target="_blank"><img src="${resource(dir:'images',file:'crowdin.png')}" alt="Crowdin" title="Crowdin"/></a>
-        </div>
         <div class="span3">
         </div>
     </div>
