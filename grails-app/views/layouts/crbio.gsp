@@ -120,17 +120,17 @@
 <div class="${fluidLayout?'container-fluid':'container'}" id="main-content">
     <g:layoutBody />
     <div class="row-fluid" id="breadcb">
-        <div class="col-md-3 vcenter">
+        <div class="col-md-4 vcenter">
             <div>   <a href="http://www.ala.org.au/" target="_blank">
                 <img src="${resource(dir:'images',file:'ala.png')}" class="img-responsive center-block" alt="Atlas of Living Australia">
             </a> </div>
         </div>
-        <div class="col-md-3 vcenter">
+        <div class="col-md-4 vcenter">
             <a href="https://crowdin.com/" target="_blank">
                 <img src="${resource(dir:'images',file:'crowdin.png')}" class="img-responsive center-block" alt="Crowdin">
             </a>
         </div>
-        <div class="col-md-3 vcenter">
+        <div class="col-md-4 vcenter">
             <a href="http://www.gbif.org/" target="_blank">
                 <img src="${resource(dir:'images',file:'gbif.jpg')}" class="img-responsive center-block" alt="GBIF">
             </a>
