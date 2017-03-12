@@ -124,25 +124,25 @@
 <section class="partners">
     <div class="container-fluid">
     <div class="row-fluid">
-        <div class="span2" vcenter>
+        <div class="span2 vcenter">
             <a href="http://www.inbio.ac.cr/" target="_blank"><img src="${resource(dir:'images',file:'inbio.jpg')}" class="img-responsive center-block" alt="INBio"></a>
         </div>
-        <div class="span1" vcenter>
+        <div class="span1 vcenter">
             <a href="https://www.acguanacaste.ac.cr/" target="_blank"><img src="${resource(dir:'images',file:'acg.jpg')}" class="img-responsive center-block" alt="ACG"></a>
         </div>        
-        <div class="span2" vcenter>
+        <div class="span2 vcenter">
             <a href="http://www.ala.org.au/" target="_blank"><img src="${resource(dir:'images',file:'ala.png')}" class="img-responsive center-block" alt="ALA"></a>
         </div>
-        <div class="span2" vcenter>
+        <div class="span2 vcenter">
             <a href="https://www.gbif.org/" target="_blank"><img src="${resource(dir:'images',file:'gbif.jpg')}" class="img-responsive center-block" alt="GBIF"></a>
         </div>
-        <div class="span2" vcenter>
+        <div class="span2 vcenter">
             <a href="http://www.conicit.go.cr/" target="_blank"><img src="${resource(dir:'images',file:'conicit.png')}" class="img-responsive center-block" alt="Conicit"></a>
         </div>
-        <div class="span1" vcenter>
+        <div class="span1 vcenter">
             <a href="http://www.micit.go.cr/" target="_blank"><img src="${resource(dir:'images',file:'micitt.png')}" class="img-responsive center-block" alt="Micitt"></a>
         </div>
-        <div class="span2" vcenter>
+        <div class="span2 vcenter">
             <a href="https://crowdin.com/" target="_blank"><img src="${resource(dir:'images',file:'crowdin.png')}" class="img-responsive center-block" alt="Crowdin"></a>
         </div>
     </div>
