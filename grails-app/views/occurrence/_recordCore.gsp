@@ -59,7 +59,6 @@
         </g:if>
     </alatag:occurrenceTableRow>
 <!-- Collection -->
-<!--
 <alatag:occurrenceTableRow annotate="false" section="dataset" fieldNameIsMsgCode="true" fieldCode="collectionCode" fieldName="Collection">
     <g:if test="${record.processed.attribution.collectionUid && collectionsWebappContext}">
         ${fieldsMap.put("collectionUid", true)}
@@ -82,7 +81,6 @@
         <span class="originalValue" style="display:none"><g:message code="recordcore.span02" default="Supplied collection code"/> "${record.raw.occurrence.collectionCode}"</span>
     </g:if>
 </alatag:occurrenceTableRow>
--->
 <!-- Catalog Number -->
 <alatag:occurrenceTableRow annotate="true" section="dataset" fieldCode="catalogueNumber" fieldName="Catalogue number">
     ${fieldsMap.put("catalogNumber", true)}
